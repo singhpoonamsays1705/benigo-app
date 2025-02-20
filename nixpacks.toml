@@ -1,0 +1,3 @@
+[start]
+# Start the Flask app using Gunicorn. Make sure your Flask app instance is named 'app' in app.py.
+cmd = "gunicorn app:app"

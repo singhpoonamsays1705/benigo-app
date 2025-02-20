@@ -1,0 +1,1386 @@
+{
+    "business_context": "Sodashi Skincare is a premium natural, vegan, cruelty\u2010free skincare brand headquartered in Western Australia. It is dedicated to ethical sourcing, sustainable production, and environmentally friendly packaging while offering high\u2010performance botanical formulations.",
+    "industry": "Natural Skincare and Beauty",
+    "intents": [
+        {
+            "category": "Brand Discovery",
+            "generic_intent": "Brand Discovery",
+            "industry_specific_intent": "Sodashi Brand Discovery",
+            "example_user_queries": [
+                "Who is Sodashi Skincare?",
+                "What\u2019s the story behind Sodashi?",
+                "How did Sodashi start as a brand?",
+                "Tell me about Sodashi\u2019s origins.",
+                "What makes Sodashi unique?"
+            ]
+        },
+        {
+            "category": "Company Overview",
+            "generic_intent": "Company Overview",
+            "industry_specific_intent": "Sodashi Company Overview",
+            "example_user_queries": [
+                "Can you give me an overview of Sodashi Skincare?",
+                "Where is Sodashi based and what do they do?",
+                "What is Sodashi\u2019s mission and vision?",
+                "Tell me about Sodashi\u2019s company values.",
+                "What are the core principles of Sodashi?"
+            ]
+        },
+        {
+            "category": "Sustainability Efforts",
+            "generic_intent": "Sustainability Efforts",
+            "industry_specific_intent": "Sodashi Sustainability Initiatives",
+            "example_user_queries": [
+                "How is Sodashi Skincare sustainable?",
+                "Tell me about your eco-friendly practices.",
+                "What sustainability initiatives does Sodashi support?",
+                "How does Sodashi give back to the environment?",
+                "What are the details of your i=Change recycling program?"
+            ]
+        },
+        {
+            "category": "Certifications Inquiry",
+            "generic_intent": "Certifications Inquiry",
+            "industry_specific_intent": "Sodashi Certifications and Quality Assurance",
+            "example_user_queries": [
+                "What certifications does Sodashi hold?",
+                "Are Sodashi products certified organic?",
+                "Tell me about Sodashi\u2019s quality standards.",
+                "Do you have cruelty-free certifications?",
+                "Which third-party tests verify your natural claims?"
+            ]
+        },
+        {
+            "category": "Product Philosophy",
+            "generic_intent": "Product Philosophy",
+            "industry_specific_intent": "Sodashi Product Philosophy",
+            "example_user_queries": [
+                "What is Sodashi\u2019s approach to skincare?",
+                "How do you formulate your natural products?",
+                "What philosophy guides your product development?",
+                "Explain the Sodashi philosophy behind ingredient selection.",
+                "Why does Sodashi avoid synthetic chemicals?"
+            ]
+        },
+        {
+            "category": "Award Recognition",
+            "generic_intent": "Award Recognition",
+            "industry_specific_intent": "Sodashi Award Recognition",
+            "example_user_queries": [
+                "Has Sodashi won any skincare awards?",
+                "What industry accolades has Sodashi earned?",
+                "Tell me about your award\u2010winning products.",
+                "Do your products receive recognition internationally?",
+                "What awards validate Sodashi\u2019s quality claims?"
+            ]
+        },
+        {
+            "category": "Customer Testimonials",
+            "generic_intent": "Customer Testimonials",
+            "industry_specific_intent": "Sodashi Customer Testimonials",
+            "example_user_queries": [
+                "What do customers say about Sodashi skincare?",
+                "Can I read reviews of your products?",
+                "How is Sodashi rated by its users?",
+                "Tell me some success stories using Sodashi.",
+                "Where can I find user testimonials for Sodashi?"
+            ]
+        },
+        {
+            "category": "Manufacturing Process",
+            "generic_intent": "Manufacturing Process",
+            "industry_specific_intent": "Sodashi Manufacturing Process",
+            "example_user_queries": [
+                "How are Sodashi products made?",
+                "Describe your cold\u2010pressed manufacturing process.",
+                "Is the manufacturing process environmentally friendly?",
+                "Where are Sodashi products produced?",
+                "Tell me about the artisanal method behind Sodashi formulas."
+            ]
+        },
+        {
+            "category": "Technology Innovations",
+            "generic_intent": "Technology Innovations",
+            "industry_specific_intent": "Sodashi Production Technology",
+            "example_user_queries": [
+                "What innovative technologies does Sodashi use?",
+                "Are there any new production techniques featured by Sodashi?",
+                "How does technology improve product quality at Sodashi?",
+                "Tell me about any advanced extraction techniques used.",
+                "What innovations in sustainability are applied in your manufacturing?"
+            ]
+        },
+        {
+            "category": "Ethical Sourcing",
+            "generic_intent": "Ethical Sourcing",
+            "industry_specific_intent": "Sodashi Ethical Ingredient Sourcing",
+            "example_user_queries": [
+                "Where does Sodashi source its ingredients?",
+                "Are your ingredients ethically and sustainably sourced?",
+                "Tell me about the suppliers you work with.",
+                "How do you ensure quality and ethical standards?",
+                "What does ethical sourcing mean to Sodashi?"
+            ]
+        },
+        {
+            "category": "Mission & Values",
+            "generic_intent": "Mission & Values",
+            "industry_specific_intent": "Sodashi Mission and Values",
+            "example_user_queries": [
+                "What are Sodashi\u2019s mission and core values?",
+                "How does Sodashi define its purpose?",
+                "Tell me what Sodashi stands for.",
+                "Why is integrity important to Sodashi?",
+                "What values guide your business decisions?"
+            ]
+        },
+        {
+            "category": "Industry Recognition",
+            "generic_intent": "Industry Recognition",
+            "industry_specific_intent": "Sodashi Industry Recognition",
+            "example_user_queries": [
+                "What industry accolades has Sodashi received?",
+                "Is Sodashi recognized as a leader in skincare?",
+                "Tell me about Sodashi\u2019s market reputation.",
+                "How is Sodashi regarded by skincare experts?",
+                "What endorsements has Sodashi received from the industry?"
+            ]
+        },
+        {
+            "category": "Brand History",
+            "generic_intent": "Brand History",
+            "industry_specific_intent": "Sodashi Brand History",
+            "example_user_queries": [
+                "What is the history of Sodashi Skincare?",
+                "How did Sodashi evolve over the years?",
+                "Tell me the origins of the Sodashi brand.",
+                "What milestones has Sodashi achieved?",
+                "How has Sodashi changed since 1999?"
+            ]
+        },
+        {
+            "category": "Founder Story",
+            "generic_intent": "Founder Story",
+            "industry_specific_intent": "Sodashi Founder Story",
+            "example_user_queries": [
+                "Who founded Sodashi Skincare?",
+                "What inspired the creation of Sodashi?",
+                "Tell me about Megan Larsen and her vision.",
+                "How did the founder start the brand?",
+                "What challenges did the founder overcome?"
+            ]
+        },
+        {
+            "category": "Corporate Social Responsibility",
+            "generic_intent": "Corporate Social Responsibility",
+            "industry_specific_intent": "Sodashi CSR Initiatives",
+            "example_user_queries": [
+                "How does Sodashi contribute to its community?",
+                "What CSR programs does Sodashi support?",
+                "Tell me about your charitable initiatives.",
+                "How do you give back to society?",
+                "What does corporate responsibility mean for Sodashi?"
+            ]
+        },
+        {
+            "category": "Supply Chain Transparency",
+            "generic_intent": "Supply Chain Transparency",
+            "industry_specific_intent": "Sodashi Supply Chain Transparency",
+            "example_user_queries": [
+                "How transparent is Sodashi\u2019s supply chain?",
+                "Can you share details about your sourcing process?",
+                "What steps do you take to ensure supply chain integrity?",
+                "How can I be sure where my products come from?",
+                "Is Sodashi\u2019s supply chain ethically audited?"
+            ]
+        },
+        {
+            "category": "How We Give Back",
+            "generic_intent": "How We Give Back",
+            "industry_specific_intent": "Sodashi Giving Back Initiatives",
+            "example_user_queries": [
+                "How does Sodashi support community projects?",
+                "Tell me about your donation initiatives via i=Change.",
+                "What charities do you support?",
+                "How is part of my purchase used to give back?",
+                "Explain how Sodashi contributes to the environment."
+            ]
+        },
+        {
+            "category": "Company Partnerships",
+            "generic_intent": "Company Partnerships",
+            "industry_specific_intent": "Sodashi Strategic Partnerships",
+            "example_user_queries": [
+                "Who does Sodashi partner with?",
+                "Tell me about partnerships with spas and distributors.",
+                "How do you collaborate with other ethical brands?",
+                "What brands or companies work with Sodashi?",
+                "Are there any exclusive partnerships I should know about?"
+            ]
+        },
+        {
+            "category": "Press & Media Coverage",
+            "generic_intent": "Press & Media Coverage",
+            "industry_specific_intent": "Sodashi Press and Media",
+            "example_user_queries": [
+                "Where has Sodashi been featured in the media?",
+                "Can you show me press releases about Sodashi?",
+                "What news outlets mention Sodashi?",
+                "Tell me about recent media coverage for Sodashi.",
+                "Has Sodashi received any magazine features?"
+            ]
+        },
+        {
+            "category": "Investor Relations",
+            "generic_intent": "Investor Relations",
+            "industry_specific_intent": "Sodashi Investor Relations",
+            "example_user_queries": [
+                "Does Sodashi share information for investors?",
+                "Where can I find Sodashi\u2019s financial reports?",
+                "What are the investment opportunities with Sodashi?",
+                "Tell me about Sodashi\u2019s growth strategy.",
+                "Who are Sodashi\u2019s investors?"
+            ]
+        },
+        {
+            "category": "Product Exploration",
+            "generic_intent": "Product Exploration",
+            "industry_specific_intent": "Sodashi Product Exploration",
+            "example_user_queries": [
+                "What types of skincare products do you offer?",
+                "Show me your full range of products.",
+                "I\u2019d like to explore Sodashi\u2019s product categories.",
+                "What skincare lines are available at Sodashi?",
+                "How can I browse your collections?"
+            ]
+        },
+        {
+            "category": "Best Sellers",
+            "generic_intent": "Best Sellers",
+            "industry_specific_intent": "Sodashi Best Sellers",
+            "example_user_queries": [
+                "What are your best-selling products?",
+                "Which Sodashi product is the most popular?",
+                "Show me the top-rated items from Sodashi.",
+                "What do most customers buy at Sodashi?",
+                "What products do people rave about?"
+            ]
+        },
+        {
+            "category": "New Arrivals",
+            "generic_intent": "New Arrivals",
+            "industry_specific_intent": "Sodashi New Arrivals",
+            "example_user_queries": [
+                "What are the latest products from Sodashi?",
+                "Show me the new arrivals in skincare.",
+                "What\u2019s new in the Sodashi collection?",
+                "Are there any fresh launches right now?",
+                "I\u2019d like to see your newest skincare innovations."
+            ]
+        },
+        {
+            "category": "Product Matching",
+            "generic_intent": "Product Matching",
+            "industry_specific_intent": "Sodashi Product Matching",
+            "example_user_queries": [
+                "Which products match best for my skin type?",
+                "Help me choose a regimen for my complexion.",
+                "Can you match products for oily skin?",
+                "What combination of products should I use?",
+                "Which Sodashi items go well together for normal skin?"
+            ]
+        },
+        {
+            "category": "Usage Recommendations",
+            "generic_intent": "Usage Recommendations",
+            "industry_specific_intent": "Sodashi Usage Recommendations",
+            "example_user_queries": [
+                "How do I use the Serum No. 21?",
+                "What is the recommended routine for your moisturiser?",
+                "How often should I use the face mist?",
+                "What steps should I follow in my skincare routine?",
+                "Any tips for how to apply Sodashi products effectively?"
+            ]
+        },
+        {
+            "category": "Component Benefits",
+            "generic_intent": "Component Benefits",
+            "industry_specific_intent": "Sodashi Ingredient Benefits",
+            "example_user_queries": [
+                "What benefits does rosehip oil provide?",
+                "How does shea butter help my skin?",
+                "Tell me about the advantages of using avocado oil.",
+                "What nutrients are in your botanical extracts?",
+                "Why are antioxidants important in Sodashi formulas?"
+            ]
+        },
+        {
+            "category": "Feature Comparison",
+            "generic_intent": "Feature Comparison",
+            "industry_specific_intent": "Sodashi Product Comparison",
+            "example_user_queries": [
+                "How does the Cult Favourites Kit compare with the Samadara Collection?",
+                "What is the difference between your cleanser types?",
+                "Compare your moisturisers for dry and oily skin.",
+                "Which product is more effective for anti-ageing?",
+                "What sets Serum No. 21 apart from competitors?"
+            ]
+        },
+        {
+            "category": "Quality Standards",
+            "generic_intent": "Quality Standards",
+            "industry_specific_intent": "Sodashi Quality Standards",
+            "example_user_queries": [
+                "How do you ensure the quality of your ingredients?",
+                "What measures are in place to maintain product integrity?",
+                "What quality controls does Sodashi use?",
+                "Are your products dermatologist approved?",
+                "How do you test your formulas for safety?"
+            ]
+        },
+        {
+            "category": "Limited Edition Inquiry",
+            "generic_intent": "Limited Edition Inquiry",
+            "industry_specific_intent": "Sodashi Limited Edition Products",
+            "example_user_queries": [
+                "Do you have any limited edition products?",
+                "What special releases does Sodashi offer?",
+                "Are there seasonal or exclusive items available?",
+                "Tell me about your limited edition collections.",
+                "How can I purchase a limited edition Sodashi product?"
+            ]
+        },
+        {
+            "category": "Trending Products",
+            "generic_intent": "Trending Products",
+            "industry_specific_intent": "Sodashi Trending Products",
+            "example_user_queries": [
+                "What are the trending products at Sodashi right now?",
+                "Show me your hottest skincare trends.",
+                "Which new items are getting a lot of buzz?",
+                "What\u2019s popular on Sodashi\u2019s website?",
+                "Can I see the products everyone\u2019s talking about?"
+            ]
+        },
+        {
+            "category": "Customer Preferences",
+            "generic_intent": "Customer Preferences",
+            "industry_specific_intent": "Sodashi Customer Preferences",
+            "example_user_queries": [
+                "Which Sodashi products are favored by people like me?",
+                "What do most customers choose for combination skin?",
+                "Show me products recommended by others.",
+                "What items do customers with sensitive skin love?",
+                "How do preferences vary across Sodashi\u2019s collections?"
+            ]
+        },
+        {
+            "category": "Store Locations",
+            "generic_intent": "Store Locations",
+            "industry_specific_intent": "Sodashi Store & Salon Locator",
+            "example_user_queries": [
+                "Where can I find a Sodashi stockist near me?",
+                "Do you have spa partners in my area?",
+                "How do I locate a Sodashi showroom?",
+                "Can you help me find a store location?",
+                "Where is the nearest Sodashi partner spa?"
+            ]
+        },
+        {
+            "category": "FAQ Assistance",
+            "generic_intent": "FAQ Assistance",
+            "industry_specific_intent": "Sodashi FAQ Support",
+            "example_user_queries": [
+                "Where can I find answers to common questions about your products?",
+                "I have a question about your ingredient list\u2014can you help?",
+                "Show me the FAQ section for Sodashi skincare.",
+                "How do I know if a product is right for me?",
+                "Can you explain your return policy?"
+            ]
+        },
+        {
+            "category": "Size Guide",
+            "generic_intent": "Size Guide",
+            "industry_specific_intent": "Sodashi Product Size Guide",
+            "example_user_queries": [
+                "What sizes do your products come in?",
+                "Is there a guide for choosing the right product size?",
+                "Tell me about the product volume options (e.g., 30ml, 100ml)?",
+                "How much product should I use?",
+                "Can you show me your size options?"
+            ]
+        },
+        {
+            "category": "Product Care Instructions",
+            "generic_intent": "Product Care Instructions",
+            "industry_specific_intent": "Sodashi Product Care",
+            "example_user_queries": [
+                "How should I care for my Sodashi products?",
+                "What are the best storage practices?",
+                "Should I refrigerate my skincare items?",
+                "How do I keep my products effective?",
+                "What maintenance is recommended for Sodashi products?"
+            ]
+        },
+        {
+            "category": "Personalized Recommendations",
+            "generic_intent": "Personalized Recommendations",
+            "industry_specific_intent": "Sodashi Personalized Skincare Recommendations",
+            "example_user_queries": [
+                "Can you recommend products for my skin concerns?",
+                "I need help choosing the right products for combination skin.",
+                "What is your skincare quiz and how does it work?",
+                "Give me personalized product suggestions.",
+                "How can I get recommendations based on my routine?"
+            ]
+        },
+        {
+            "category": "User-Generated Content Reviews",
+            "generic_intent": "User-Generated Content Reviews",
+            "industry_specific_intent": "Sodashi User Reviews & Community Content",
+            "example_user_queries": [
+                "Show me reviews by other Sodashi users.",
+                "Are there before and after photos of your products?",
+                "Where can I see customer testimonials?",
+                "Can I watch video reviews of Sodashi products?",
+                "What do real users say about Serum No. 21?"
+            ]
+        },
+        {
+            "category": "Product Certification Details",
+            "generic_intent": "Product Certification Details",
+            "industry_specific_intent": "Sodashi Certification and Test Results",
+            "example_user_queries": [
+                "What certifications do your products hold?",
+                "Are your ingredients third-party tested?",
+                "Tell me about your cruelty-free and vegan certifications.",
+                "Where can I view your product test results?",
+                "How does Sodashi verify ingredient purity?"
+            ]
+        },
+        {
+            "category": "Product Comparison",
+            "generic_intent": "Product Comparison",
+            "industry_specific_intent": "Sodashi Product Comparison",
+            "example_user_queries": [
+                "How does your cleanser compare with competitors?",
+                "Compare the benefits of your two moisturisers.",
+                "What is the difference between the Calming and Balancing ranges?",
+                "Help me choose between two products.",
+                "What makes Serum No. 21 better than others?"
+            ]
+        },
+        {
+            "category": "Competitor Comparison",
+            "generic_intent": "Competitor Comparison",
+            "industry_specific_intent": "Sodashi vs. Competitors",
+            "example_user_queries": [
+                "How does Sodashi compare with other natural skincare brands?",
+                "What sets Sodashi apart from other vegan skincare lines?",
+                "Is Sodashi more effective than mainstream brands?",
+                "Why should I choose Sodashi over chemical\u2010based products?",
+                "What advantages does Sodashi offer compared to others?"
+            ]
+        },
+        {
+            "category": "Customer Reviews",
+            "generic_intent": "Customer Reviews",
+            "industry_specific_intent": "Sodashi Customer Reviews",
+            "example_user_queries": [
+                "Can I see customer feedback on your products?",
+                "Where do I read reviews for the face cleanser?",
+                "What are users saying about your moisturiser?",
+                "Show me ratings for Serum No. 21.",
+                "Are there any user testimonials I can read?"
+            ]
+        },
+        {
+            "category": "Pricing Justification",
+            "generic_intent": "Pricing Justification",
+            "industry_specific_intent": "Sodashi Pricing Explanation",
+            "example_user_queries": [
+                "Why are Sodashi products priced at a premium?",
+                "What makes Sodashi worth its price?",
+                "Can you explain the cost of natural ingredients?",
+                "How do you maintain quality at your price point?",
+                "Why is your anti-ageing cream expensive?"
+            ]
+        },
+        {
+            "category": "Safety & Compliance",
+            "generic_intent": "Safety & Compliance",
+            "industry_specific_intent": "Sodashi Safety & Compliance",
+            "example_user_queries": [
+                "Are your products safe for sensitive skin?",
+                "How do you comply with Australian health standards?",
+                "What tests do your products undergo for safety?",
+                "Is Sodashi dermatologically tested?",
+                "Tell me about your product safety measures."
+            ]
+        },
+        {
+            "category": "Return Policy",
+            "generic_intent": "Return Policy",
+            "industry_specific_intent": "Sodashi Return Policy",
+            "example_user_queries": [
+                "What is your return policy for damaged items?",
+                "How do I return a faulty product?",
+                "Can I get a refund if I\u2019m unsatisfied?",
+                "What are the conditions for a return?",
+                "Tell me how to exchange a product."
+            ]
+        },
+        {
+            "category": "Gift Options",
+            "generic_intent": "Gift Options",
+            "industry_specific_intent": "Sodashi Gift Options",
+            "example_user_queries": [
+                "Do you offer gift sets or gift cards?",
+                "What is the best gift set from Sodashi?",
+                "How can I purchase a Sodashi gift voucher?",
+                "Are there special packages for holidays?",
+                "What gift options do you have for skincare?"
+            ]
+        },
+        {
+            "category": "Loyalty Program Information",
+            "generic_intent": "Loyalty Program Information",
+            "industry_specific_intent": "Sodashi Beauty Rewards Program",
+            "example_user_queries": [
+                "How does the Sodashi Beauty Rewards Program work?",
+                "What benefits do I get as a loyalty member?",
+                "How do I earn points with Sodashi?",
+                "Where can I check my reward points balance?",
+                "Tell me about the perks of joining your program."
+            ]
+        },
+        {
+            "category": "Referral Discounts",
+            "generic_intent": "Referral Discounts",
+            "industry_specific_intent": "Sodashi Referral Discounts",
+            "example_user_queries": [
+                "How can I earn referral bonus points?",
+                "What discounts do I get when I refer a friend?",
+                "Can I share my referral code?",
+                "Tell me about your referral program.",
+                "What happens if my friend makes a purchase using my code?"
+            ]
+        },
+        {
+            "category": "Subscription Benefits",
+            "generic_intent": "Subscription Benefits",
+            "industry_specific_intent": "Sodashi Subscription Program",
+            "example_user_queries": [
+                "Do you offer product subscriptions?",
+                "What are the perks of subscribing to Sodashi?",
+                "How does your subscription service work?",
+                "Can I get a discount if I subscribe?",
+                "Tell me about exclusive offers for subscribers."
+            ]
+        },
+        {
+            "category": "Bulk Order Inquiry",
+            "generic_intent": "Bulk Order Inquiry",
+            "industry_specific_intent": "Sodashi Bulk Order Service",
+            "example_user_queries": [
+                "Do you offer discounts for bulk orders?",
+                "I need to order products in larger quantities\u2014what are the options?",
+                "Can I get a pricing quote for wholesale orders?",
+                "Please provide information on bulk purchase policies.",
+                "How can I place a bulk order for my business?"
+            ]
+        },
+        {
+            "category": "Product Stock & Restock Status",
+            "generic_intent": "Product Stock & Restock Status",
+            "industry_specific_intent": "Sodashi Stock Status and Restock Updates",
+            "example_user_queries": [
+                "Is Serum No. 21 currently in stock?",
+                "When will the cult favourites be back in stock?",
+                "Can I sign up for restock notifications?",
+                "What is the expected delivery for out-of-stock items?",
+                "How do I know when a product is available again?"
+            ]
+        },
+        {
+            "category": "Promotional Campaigns",
+            "generic_intent": "Promotional Campaigns",
+            "industry_specific_intent": "Sodashi Promotional Offers",
+            "example_user_queries": [
+                "What promotions are currently running?",
+                "Are there any discounts or special campaigns?",
+                "Tell me about today\u2019s sale at Sodashi.",
+                "What promotional events do you have planned?",
+                "How can I get notified about upcoming campaigns?"
+            ]
+        },
+        {
+            "category": "Coupon Code Issues",
+            "generic_intent": "Coupon Code Issues",
+            "industry_specific_intent": "Sodashi Coupon Code Support",
+            "example_user_queries": [
+                "I\u2019m having trouble applying my coupon code\u2014can you help?",
+                "Why isn\u2019t my discount code working?",
+                "My promo code isn\u2019t accepted on checkout.",
+                "How do I fix issues with coupon codes?",
+                "I entered my code but no discount is shown\u2014what do I do?"
+            ]
+        },
+        {
+            "category": "Order History",
+            "generic_intent": "Order History",
+            "industry_specific_intent": "Sodashi Order History",
+            "example_user_queries": [
+                "How can I view my past orders?",
+                "Show me my order history on my account.",
+                "I need to check when I last ordered.",
+                "Where are my previous purchase details?",
+                "How do I get an invoice for my old orders?"
+            ]
+        },
+        {
+            "category": "Loyalty Points Balance",
+            "generic_intent": "Loyalty Points Balance",
+            "industry_specific_intent": "Sodashi Points Balance Inquiry",
+            "example_user_queries": [
+                "What is my current rewards points balance?",
+                "How can I check my Sodashi loyalty points?",
+                "Where do I view my points on my account?",
+                "Tell me how many points I\u2019ve accumulated.",
+                "How do I find my loyalty balance?"
+            ]
+        },
+        {
+            "category": "Product Authenticity Check",
+            "generic_intent": "Product Authenticity Check",
+            "industry_specific_intent": "Sodashi Authenticity Verification",
+            "example_user_queries": [
+                "How can I verify that my product is genuine Sodashi?",
+                "What security features confirm authenticity?",
+                "How do I know if a product is 100% genuine?",
+                "Tell me about Sodashi\u2019s authenticity measures.",
+                "Can you confirm if my purchased product is authentic?"
+            ]
+        },
+        {
+            "category": "Limited-Time Offers",
+            "generic_intent": "Limited-Time Offers",
+            "industry_specific_intent": "Sodashi Limited-Time Offers",
+            "example_user_queries": [
+                "Are there any limited-time offers available now?",
+                "What promotions are only available for a short period?",
+                "How long is your current sale running?",
+                "Show me the products on limited-time discount.",
+                "When do the limited-time offers expire?"
+            ]
+        },
+        {
+            "category": "Promo Inquiry",
+            "generic_intent": "Promo Inquiry",
+            "industry_specific_intent": "Sodashi Promo & Discount Inquiry",
+            "example_user_queries": [
+                "Do you have any active promo codes?",
+                "How can I find the latest discount offers?",
+                "Where can I get information on current promotions?",
+                "I\u2019d like help with your promotional deals.",
+                "What rebates are available at Sodashi right now?"
+            ]
+        },
+        {
+            "category": "Payment Methods",
+            "generic_intent": "Payment Methods",
+            "industry_specific_intent": "Sodashi Payment Options",
+            "example_user_queries": [
+                "What payment methods are accepted at Sodashi?",
+                "Do you accept Apple Pay or Google Pay?",
+                "How can I pay for my order online?",
+                "Can I use PayPal to buy Sodashi products?",
+                "Tell me the payment options available."
+            ]
+        },
+        {
+            "category": "Shipping Details",
+            "generic_intent": "Shipping Details",
+            "industry_specific_intent": "Sodashi Shipping Information",
+            "example_user_queries": [
+                "What are your shipping options?",
+                "How much does shipping cost for international orders?",
+                "Explain your free shipping policy in Australia.",
+                "What carriers do you use for delivery?",
+                "How do I track my Sodashi shipment?"
+            ]
+        },
+        {
+            "category": "Estimated Delivery Time",
+            "generic_intent": "Estimated Delivery Time",
+            "industry_specific_intent": "Sodashi Delivery Estimates",
+            "example_user_queries": [
+                "How long will my order take to arrive?",
+                "What is the estimated delivery time for Australia?",
+                "When can I expect my package?",
+                "Tell me the delivery timeline for international orders.",
+                "How many days until my order is delivered?"
+            ]
+        },
+        {
+            "category": "Checkout Assistance",
+            "generic_intent": "Checkout Assistance",
+            "industry_specific_intent": "Sodashi Checkout Help",
+            "example_user_queries": [
+                "I need help with the checkout process, please.",
+                "Can you guide me through order placement?",
+                "I\u2019m having trouble checking out\u2014what should I do?",
+                "Help me complete my online order.",
+                "How do I fix issues at the checkout page?"
+            ]
+        },
+        {
+            "category": "Loyalty Benefits & Rewards",
+            "generic_intent": "Loyalty Benefits & Rewards",
+            "industry_specific_intent": "Sodashi Loyalty Rewards Benefits",
+            "example_user_queries": [
+                "What extra benefits do I get as a loyalty member?",
+                "Tell me about the perks of the Sodashi rewards program.",
+                "How do rewards work at Sodashi?",
+                "What bonuses are available for repeat customers?",
+                "Show me the benefits in my loyalty account."
+            ]
+        },
+        {
+            "category": "Bundle Savings",
+            "generic_intent": "Bundle Savings",
+            "industry_specific_intent": "Sodashi Bundle Savings",
+            "example_user_queries": [
+                "Do you offer any savings on bundles?",
+                "What bundle deals are available right now?",
+                "Are there discounts if I purchase a set?",
+                "Show me bundle offers for skincare routines.",
+                "How can I save money buying a skincare kit?"
+            ]
+        },
+        {
+            "category": "First-Time Offers",
+            "generic_intent": "First-Time Offers",
+            "industry_specific_intent": "Sodashi New Customer Discounts",
+            "example_user_queries": [
+                "Do first-time buyers get a discount?",
+                "What is the new customer promo at Sodashi?",
+                "How can I get a discount on my first order?",
+                "Any special offers for new subscribers?",
+                "Show me the welcome offer for new customers."
+            ]
+        },
+        {
+            "category": "Membership Benefits",
+            "generic_intent": "Membership Benefits",
+            "industry_specific_intent": "Sodashi Membership Benefits",
+            "example_user_queries": [
+                "What are the benefits of creating a Sodashi account?",
+                "What perks do members receive?",
+                "How does your membership work?",
+                "Show me exclusive member offers.",
+                "What rewards are reserved for loyalty members?"
+            ]
+        },
+        {
+            "category": "Corporate Orders",
+            "generic_intent": "Corporate Orders",
+            "industry_specific_intent": "Sodashi Corporate Order Service",
+            "example_user_queries": [
+                "Can I place a corporate order with Sodashi?",
+                "What are the options for business orders?",
+                "Do you offer corporate bulk discounts?",
+                "I need Sodashi products for my business\u2014how do I order?",
+                "Tell me about your corporate sales service."
+            ]
+        },
+        {
+            "category": "Custom Order Requests",
+            "generic_intent": "Custom Order Requests",
+            "industry_specific_intent": "Sodashi Custom Orders",
+            "example_user_queries": [
+                "Can I customise my order at Sodashi?",
+                "Do you offer bespoke skincare solutions?",
+                "How do I request a custom skincare regimen?",
+                "I\u2019d like a personalised product package\u2014help me order.",
+                "Tell me about your custom order process."
+            ]
+        },
+        {
+            "category": "VIP Membership",
+            "generic_intent": "VIP Membership",
+            "industry_specific_intent": "Sodashi VIP Membership",
+            "example_user_queries": [
+                "What is Sodashi\u2019s VIP membership?",
+                "How can I become a VIP member?",
+                "Tell me about exclusive VIP perks.",
+                "Are there special benefits for loyal customers?",
+                "What makes the VIP program different?"
+            ]
+        },
+        {
+            "category": "Back-in-Stock Notifications",
+            "generic_intent": "Back-in-Stock Notifications",
+            "industry_specific_intent": "Sodashi Stock Alerts",
+            "example_user_queries": [
+                "Can I get notified when a product is back in stock?",
+                "I want to know when Serum No. 21 is available again.",
+                "How do I sign up for restock alerts?",
+                "Notify me when limited edition items are back.",
+                "What is the process for stock notifications?"
+            ]
+        },
+        {
+            "category": "Product Customization",
+            "generic_intent": "Product Customization",
+            "industry_specific_intent": "Sodashi Product Customization",
+            "example_user_queries": [
+                "Can I personalize my skincare regimen?",
+                "Do you offer customization options?",
+                "How can I tailor a product to my needs?",
+                "What choices do I have to customize a kit?",
+                "I\u2019d like a custom bundle \u2013 how do I create one?"
+            ]
+        },
+        {
+            "category": "Environmental Impact",
+            "generic_intent": "Environmental Impact",
+            "industry_specific_intent": "Sodashi Environmental Impact",
+            "example_user_queries": [
+                "What impact does Sodashi have on the environment?",
+                "How do your products help reduce environmental harm?",
+                "Tell me about your eco-friendly initiatives.",
+                "How does Sodashi minimize its carbon footprint?",
+                "Are your products sustainable?"
+            ]
+        },
+        {
+            "category": "Gift Wrapping Options",
+            "generic_intent": "Gift Wrapping Options",
+            "industry_specific_intent": "Sodashi Gift Packaging",
+            "example_user_queries": [
+                "Do you offer gift wrapping for orders?",
+                "Can I have my order gift wrapped?",
+                "What options are there for presents?",
+                "I need an elegant packaging option, what do you offer?",
+                "Tell me about your gift-ready packaging."
+            ]
+        },
+        {
+            "category": "Expedited Shipping Inquiry",
+            "generic_intent": "Expedited Shipping Inquiry",
+            "industry_specific_intent": "Sodashi Expedited Shipping",
+            "example_user_queries": [
+                "Do you offer faster shipping options?",
+                "How can I get my order delivered quickly?",
+                "Tell me about expedited shipping rates.",
+                "What are the options for urgent deliveries?",
+                "Can I speed up my shipment?"
+            ]
+        },
+        {
+            "category": "Tax and Duties Information",
+            "generic_intent": "Tax and Duties Information",
+            "industry_specific_intent": "Sodashi Tax and Import Duties",
+            "example_user_queries": [
+                "Will I be charged additional duties on international orders?",
+                "How are taxes handled on my order?",
+                "Do you include GST in your prices?",
+                "What customs fees should I expect?",
+                "Explain the tax policy for exporting Sodashi products."
+            ]
+        },
+        {
+            "category": "Order Tracking",
+            "generic_intent": "Order Tracking",
+            "industry_specific_intent": "Sodashi Order Tracking",
+            "example_user_queries": [
+                "How can I track my order from Sodashi?",
+                "Where is my package right now?",
+                "Show me the tracking details for my shipment.",
+                "Is there an order tracking link in my email?",
+                "How do I monitor my delivery status?"
+            ]
+        },
+        {
+            "category": "Shipping Issues",
+            "generic_intent": "Shipping Issues",
+            "industry_specific_intent": "Sodashi Shipping Support",
+            "example_user_queries": [
+                "My package hasn\u2019t arrived\u2014what do I do?",
+                "I have an issue with my delivery, can you help?",
+                "The shipping seems delayed; please assist.",
+                "How do I report a shipping problem?",
+                "What should I do if my order is lost?"
+            ]
+        },
+        {
+            "category": "Payment Issues",
+            "generic_intent": "Payment Issues",
+            "industry_specific_intent": "Sodashi Payment Support",
+            "example_user_queries": [
+                "My payment isn\u2019t going through\u2014what can I try?",
+                "I encountered an error during payment.",
+                "Can you help me rectify a payment problem?",
+                "Why was my card declined at checkout?",
+                "How do I resolve payment issues on your site?"
+            ]
+        },
+        {
+            "category": "Order Modification",
+            "generic_intent": "Order Modification",
+            "industry_specific_intent": "Sodashi Order Change Requests",
+            "example_user_queries": [
+                "I need to change my delivery address\u2014how do I do that?",
+                "Can I add another item to my order?",
+                "I made a mistake in my order, can it be modified?",
+                "How do I update my order details?",
+                "Please help me change my order before it ships."
+            ]
+        },
+        {
+            "category": "Lost Package",
+            "generic_intent": "Lost Package",
+            "industry_specific_intent": "Sodashi Lost Package Support",
+            "example_user_queries": [
+                "I haven\u2019t received my package; what should I do?",
+                "My shipment is marked delivered but I can\u2019t find it.",
+                "How can I file a claim for a lost package?",
+                "What is the procedure if my order is missing?",
+                "Help me track a package that may be lost."
+            ]
+        },
+        {
+            "category": "Gift Order Support",
+            "generic_intent": "Gift Order Support",
+            "industry_specific_intent": "Sodashi Gift Order Assistance",
+            "example_user_queries": [
+                "I\u2019m ordering a gift \u2013 can you provide assistance?",
+                "Help me with gift order instructions.",
+                "Do you offer special services for gift orders?",
+                "What should I do if a gift order is delayed?",
+                "How can I add a personal message to my gift order?"
+            ]
+        },
+        {
+            "category": "Shipping Partners",
+            "generic_intent": "Shipping Partners",
+            "industry_specific_intent": "Sodashi Shipping Carriers",
+            "example_user_queries": [
+                "Which carriers does Sodashi use for shipments?",
+                "Can you tell me about your delivery partners?",
+                "What shipping companies deliver your products?",
+                "Are orders sent via Australia Post?",
+                "How do your shipping partners ensure safe delivery?"
+            ]
+        },
+        {
+            "category": "Order Confirmation",
+            "generic_intent": "Order Confirmation",
+            "industry_specific_intent": "Sodashi Order Confirmation Process",
+            "example_user_queries": [
+                "How will I know when my order is confirmed?",
+                "Did I receive an order confirmation email?",
+                "What does your order confirmation include?",
+                "Can you resend my confirmation details?",
+                "I didn\u2019t get an order confirmation \u2013 please check."
+            ]
+        },
+        {
+            "category": "Bulk Order Processing",
+            "generic_intent": "Bulk Order Processing",
+            "industry_specific_intent": "Sodashi Bulk Order Processing",
+            "example_user_queries": [
+                "How do you process large orders?",
+                "Can you expedite bulk order processing?",
+                "What is the turnaround time for bulk orders?",
+                "I need details on how bulk orders are handled.",
+                "What procedures does Sodashi follow for corporate orders?"
+            ]
+        },
+        {
+            "category": "Custom Order Assistance",
+            "generic_intent": "Custom Order Assistance",
+            "industry_specific_intent": "Sodashi Custom Order Help",
+            "example_user_queries": [
+                "I require help with a custom order request.",
+                "Who can I talk to about tailoring a product?",
+                "How do I get support for a bespoke order?",
+                "Can someone assist with my personalized request?",
+                "I have a custom order query \u2013 where do I start?"
+            ]
+        },
+        {
+            "category": "Invoice Requests",
+            "generic_intent": "Invoice Requests",
+            "industry_specific_intent": "Sodashi Invoice Assistance",
+            "example_user_queries": [
+                "How can I request an invoice for my order?",
+                "I need a copy of my invoice.",
+                "Where can I view my billing details?",
+                "Can you resend the invoice to my email?",
+                "I require an invoice for my records \u2013 please help."
+            ]
+        },
+        {
+            "category": "Order Cancellation/Change",
+            "generic_intent": "Order Cancellation/Change",
+            "industry_specific_intent": "Sodashi Order Cancellation & Modification",
+            "example_user_queries": [
+                "How do I cancel my order?",
+                "I need to change my order\u2014what are my options?",
+                "Can I cancel or modify my order after placing it?",
+                "What is Sodashi\u2019s cancellation policy?",
+                "I\u2019d like to cancel my recent order, please advise."
+            ]
+        },
+        {
+            "category": "Contact Information",
+            "generic_intent": "Contact Information",
+            "industry_specific_intent": "Sodashi Customer Contact Info",
+            "example_user_queries": [
+                "What is the best number to reach Sodashi customer service?",
+                "Where can I find your contact information?",
+                "How do I email Sodashi support?",
+                "What are your customer service hours?",
+                "Can you give me the location of your head office?"
+            ]
+        },
+        {
+            "category": "Live Chat Support",
+            "generic_intent": "Live Chat Support",
+            "industry_specific_intent": "Sodashi Live Chat",
+            "example_user_queries": [
+                "Is there a live chat option for help?",
+                "How can I chat with a Sodashi representative?",
+                "I need realtime support while browsing.",
+                "Where can I access your live chat?",
+                "Can I speak to someone now via chat?"
+            ]
+        },
+        {
+            "category": "Secure Payment Verification",
+            "generic_intent": "Secure Payment Verification",
+            "industry_specific_intent": "Sodashi Secure Payment",
+            "example_user_queries": [
+                "How secure is my card info when I pay?",
+                "What encryption do you use to protect payments?",
+                "Is Sodashi PCI-compliant?",
+                "How is my payment information verified?",
+                "Can you assure me of secure payment transactions?"
+            ]
+        },
+        {
+            "category": "Order Split Shipments",
+            "generic_intent": "Order Split Shipments",
+            "industry_specific_intent": "Sodashi Split Shipment Options",
+            "example_user_queries": [
+                "Can my order be split into multiple shipments?",
+                "Why did my order arrive in separate packages?",
+                "Tell me about your split shipment policy.",
+                "How do you handle partial deliveries?",
+                "Is it possible to choose split shipping?"
+            ]
+        },
+        {
+            "category": "Customer Identity Verification",
+            "generic_intent": "Customer Identity Verification",
+            "industry_specific_intent": "Sodashi Identity Verification",
+            "example_user_queries": [
+                "How do you verify customer identities?",
+                "What documents do you need for verification?",
+                "I need help confirming my account identity.",
+                "Why am I asked to verify my identity?",
+                "How secure is my personal information?"
+            ]
+        },
+        {
+            "category": "Return Request",
+            "generic_intent": "Return Request",
+            "industry_specific_intent": "Sodashi Return Request Process",
+            "example_user_queries": [
+                "How do I request a return for a product?",
+                "I want to return a faulty item \u2013 what\u2019s the process?",
+                "Can I send back my order if I\u2019m unsatisfied?",
+                "What details do I need to provide for a return?",
+                "Explain the steps to initiate a return."
+            ]
+        },
+        {
+            "category": "Refund Processing & Delays",
+            "generic_intent": "Refund Processing & Delays",
+            "industry_specific_intent": "Sodashi Refund Support",
+            "example_user_queries": [
+                "My refund is delayed, can you explain why?",
+                "How long does it take for a refund to be processed?",
+                "What is the refund policy for returns?",
+                "Can you track the status of my refund?",
+                "I haven\u2019t received my refund \u2013 help me check."
+            ]
+        },
+        {
+            "category": "Product Exchange",
+            "generic_intent": "Product Exchange",
+            "industry_specific_intent": "Sodashi Product Exchange",
+            "example_user_queries": [
+                "How do I exchange a product that isn\u2019t right for me?",
+                "What is the exchange process at Sodashi?",
+                "Can I swap my item for a different product?",
+                "I want to exchange my product\u2014what steps do I follow?",
+                "Explain how exchanges work on your site."
+            ]
+        },
+        {
+            "category": "Application Guidance",
+            "generic_intent": "Application Guidance",
+            "industry_specific_intent": "Sodashi Application Support",
+            "example_user_queries": [
+                "How do I properly apply Serum No. 21?",
+                "What are the guidelines for using your rejuvenating cream?",
+                "Can you advise on application techniques for best results?",
+                "What order should I use the products in?",
+                "Give me tips on applying your products effectively."
+            ]
+        },
+        {
+            "category": "Usage Troubleshooting",
+            "generic_intent": "Usage Troubleshooting",
+            "industry_specific_intent": "Sodashi Usage Troubleshooting",
+            "example_user_queries": [
+                "My skin reaction seems off after using your product, help!",
+                "What should I do if a product isn\u2019t working as expected?",
+                "I\u2019m not seeing the results\u2014any troubleshooting tips?",
+                "How do I adjust my routine if a product feels heavy?",
+                "Can you troubleshoot an issue with product application?"
+            ]
+        },
+        {
+            "category": "Customer Support",
+            "generic_intent": "Customer Support",
+            "industry_specific_intent": "Sodashi Customer Support",
+            "example_user_queries": [
+                "How do I contact Sodashi customer support?",
+                "I need help with my recent order\u2014what\u2019s the best way to get support?",
+                "Where can I find customer assistance?",
+                "I have a query regarding my skin, can someone help?",
+                "Can I speak to a live agent for product advice?"
+            ]
+        },
+        {
+            "category": "Loyalty Redemption",
+            "generic_intent": "Loyalty Redemption",
+            "industry_specific_intent": "Sodashi Rewards Redemption",
+            "example_user_queries": [
+                "How do I redeem my loyalty points?",
+                "What discount will I get for my points?",
+                "Explain the redemption process for rewards.",
+                "Can I combine my reward coupon with other deals?",
+                "Help me use my loyalty points at checkout."
+            ]
+        },
+        {
+            "category": "Follow-Up Consultation",
+            "generic_intent": "Follow-Up Consultation",
+            "industry_specific_intent": "Sodashi Follow-Up Service",
+            "example_user_queries": [
+                "I\u2019d like to book a consultation with a skincare expert.",
+                "How can I schedule a follow-up session after my treatment?",
+                "Do you offer personalized skin consultations?",
+                "Can I speak to an expert about my routine?",
+                "I need advice after using a product \u2013 who can I talk to?"
+            ]
+        },
+        {
+            "category": "Storage Guidelines",
+            "generic_intent": "Storage Guidelines",
+            "industry_specific_intent": "Sodashi Storage Recommendations",
+            "example_user_queries": [
+                "How should I store my Sodashi products?",
+                "Do you recommend refrigeration for any items?",
+                "What\u2019s the best way to keep products fresh?",
+                "Are there storage tips for preserving quality?",
+                "How do I ensure product longevity?"
+            ]
+        },
+        {
+            "category": "Customer Feedback",
+            "generic_intent": "Customer Feedback",
+            "industry_specific_intent": "Sodashi Feedback & Reviews",
+            "example_user_queries": [
+                "How can I provide feedback on my purchase?",
+                "Where do I leave a review for Sodashi?",
+                "I have suggestions for your products\u2014how can I share them?",
+                "Can you take my feedback on the service?",
+                "I\u2019d like to rate my experience with Sodashi."
+            ]
+        },
+        {
+            "category": "Technical Assistance",
+            "generic_intent": "Technical Assistance",
+            "industry_specific_intent": "Sodashi Technical Support",
+            "example_user_queries": [
+                "I\u2019m having trouble navigating the website\u2014can you help?",
+                "How do I fix a technical error during checkout?",
+                "What should I do if the site is not loading properly?",
+                "Can you help me resolve a technical issue?",
+                "I need support with your online platform."
+            ]
+        },
+        {
+            "category": "Repair & Maintenance",
+            "generic_intent": "Repair & Maintenance",
+            "industry_specific_intent": "Sodashi Product Care & Maintenance",
+            "example_user_queries": [
+                "My product container is damaged, what now?",
+                "How can I maintain my skincare products at home?",
+                "Do you offer repair or replacement for defective packaging?",
+                "What upkeep do your products require?",
+                "Can you advise on how to extend product shelf life?"
+            ]
+        },
+        {
+            "category": "Warranty Information",
+            "generic_intent": "Warranty Information",
+            "industry_specific_intent": "Sodashi Warranty Details",
+            "example_user_queries": [
+                "What warranty does Sodashi offer?",
+                "How long is the product warranty period?",
+                "Can I claim warranty on a damaged product?",
+                "Explain your warranty policy for skincare items.",
+                "What happens if a product fails within the warranty period?"
+            ]
+        },
+        {
+            "category": "Privacy Policy",
+            "generic_intent": "Privacy Policy",
+            "industry_specific_intent": "Sodashi Privacy Policy",
+            "example_user_queries": [
+                "How is my personal data handled at Sodashi?",
+                "What are Sodashi\u2019s privacy practices?",
+                "Where can I read your privacy statement?",
+                "How do you secure my information?",
+                "Tell me about your data protection measures."
+            ]
+        },
+        {
+            "category": "Terms & Conditions",
+            "generic_intent": "Terms & Conditions",
+            "industry_specific_intent": "Sodashi Terms and Conditions",
+            "example_user_queries": [
+                "What are the terms for using your site?",
+                "Where can I read your terms and conditions?",
+                "What policies govern my purchase?",
+                "Explain the conditions of sale at Sodashi.",
+                "I need details on your online terms."
+            ]
+        },
+        {
+            "category": "Subscription Management",
+            "generic_intent": "Subscription Management",
+            "industry_specific_intent": "Sodashi Subscription Management",
+            "example_user_queries": [
+                "How do I manage my subscription with Sodashi?",
+                "Can I modify or cancel my subscription?",
+                "Where do I update my account details?",
+                "Help me change my subscription settings.",
+                "What\u2019s the process for cancelling a subscription?"
+            ]
+        },
+        {
+            "category": "Accessibility Options",
+            "generic_intent": "Accessibility Options",
+            "industry_specific_intent": "Sodashi Accessibility & Usability",
+            "example_user_queries": [
+                "Is your website accessible for visually impaired users?",
+                "What accessibility features does Sodashi offer?",
+                "How can I adjust display settings on your site?",
+                "Tell me about the accessibility options available.",
+                "Can I change font sizes or contrast settings?"
+            ]
+        },
+        {
+            "category": "Damaged Product Claims",
+            "generic_intent": "Damaged Product Claims",
+            "industry_specific_intent": "Sodashi Damaged Product Support",
+            "example_user_queries": [
+                "What do I do if my product arrives damaged?",
+                "How do I file a claim for a damaged item?",
+                "My product is broken\u2014how can I get a replacement?",
+                "Help me with a damaged goods claim.",
+                "What is Sodashi\u2019s policy for damaged products?"
+            ]
+        },
+        {
+            "category": "Product Expiration Date Inquiry",
+            "generic_intent": "Product Expiration Inquiry",
+            "industry_specific_intent": "Sodashi Expiration Date Info",
+            "example_user_queries": [
+                "How do I find the expiration date on my product?",
+                "What is the shelf life of your products?",
+                "When does my Soda product expire?",
+                "Can you tell me the best before date?",
+                "Where is the expiration printed on the package?"
+            ]
+        },
+        {
+            "category": "Extended Warranty Options",
+            "generic_intent": "Extended Warranty Options",
+            "industry_specific_intent": "Sodashi Extended Warranty",
+            "example_user_queries": [
+                "Do you offer an extended warranty on your products?",
+                "What are the terms for an extended warranty?",
+                "How can I purchase extra warranty coverage?",
+                "Explain your extended warranty options.",
+                "Can I extend the warranty on a skincare product?"
+            ]
+        },
+        {
+            "category": "Negative Feedback Escalation",
+            "generic_intent": "Negative Feedback Escalation",
+            "industry_specific_intent": "Sodashi Complaint Escalation",
+            "example_user_queries": [
+                "I have a poor review\u2014how do I escalate my complaint?",
+                "My issue was not resolved; whom do I contact?",
+                "How can I escalate a negative experience?",
+                "What is the process for complaint escalation?",
+                "Help me file an escalation for a product concern."
+            ]
+        },
+        {
+            "category": "Product Complaint",
+            "generic_intent": "Product Complaint",
+            "industry_specific_intent": "Sodashi Product Complaint",
+            "example_user_queries": [
+                "I want to complain about a product I received.",
+                "How do I report a defect in a product?",
+                "There\u2019s an issue with my skincare item\u2014what next?",
+                "File a product complaint regarding poor quality.",
+                "How can I register a formal complaint about an item?"
+            ]
+        },
+        {
+            "category": "Warranty Request",
+            "generic_intent": "Warranty Request",
+            "industry_specific_intent": "Sodashi Warranty Request",
+            "example_user_queries": [
+                "I need to file a warranty claim for my product.",
+                "How do I request warranty service?",
+                "My product stopped working; how can I use warranty?",
+                "What is the process for a warranty request?",
+                "Can you help me with a warranty repair request?"
+            ]
+        },
+        {
+            "category": "Subscription Cancellation",
+            "generic_intent": "Subscription Cancellation",
+            "industry_specific_intent": "Sodashi Subscription Cancellation",
+            "example_user_queries": [
+                "How do I cancel my subscription?",
+                "I want to opt out of my Sodashi subscription\u2014what are my options?",
+                "Explain the process to terminate my subscription service.",
+                "What steps do I take to cancel recurring orders?",
+                "How do I stop future subscription charges?"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+bs4
+langchain_community
+langchain_openai
+python-dotenv
+flask
+gunicorn
